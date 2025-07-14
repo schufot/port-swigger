@@ -22,10 +22,9 @@
     - This triggers the hashchange listener
     - Result: website calls `decdoeURIComponent` on the new value (which is an XSS) and the alert() function is triggered
     - New exploit: `<iframe src="https://0a20009d04571dc2807f128a001e0075.web-security-academy.net/#" onload="this.src+='<img src=1 onerror=print(1)>'">`
-  - <img width="1174" height="884" alt="image" src="https://github.com/user-attachments/assets/6fcc34a3-8dec-45ed-90ba-4495544475d5" />
-  - When clicking on "Store" and then "View exploit": <img width="1174" height="624" alt="image" src="https://github.com/user-attachments/assets/6ca86abd-7b72-4194-8611-3e9c2d5c6284" />
-  - Then click "Deliver exploit to victim": <img width="1174" height="321" alt="image" src="https://github.com/user-attachments/assets/f4cadcf0-9271-4411-a9db-28d01bfef190" />
-
-
+  - Go to exploit server and enter the exploit in as the body of the exploit:
+    - <img width="1174" height="884" alt="image" src="https://github.com/user-attachments/assets/6fcc34a3-8dec-45ed-90ba-4495544475d5" />
+    - Then click "Store" and then "View exploit": <img width="1174" height="624" alt="image" src="https://github.com/user-attachments/assets/6ca86abd-7b72-4194-8611-3e9c2d5c6284" />
+    - Then click "Deliver exploit to victim": <img width="1174" height="321" alt="image" src="https://github.com/user-attachments/assets/f4cadcf0-9271-4411-a9db-28d01bfef190" />
 - Explanation:
   - DOM-based XSS attack: Malicious input will be passed to a sink that supports dynamic code execution through JQuery
