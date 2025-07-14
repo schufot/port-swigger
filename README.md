@@ -1,4 +1,4 @@
-# [PortSwigger](https://play.picoctf.org) Labs Writeups
+# [PortSwigger](https://portswigger.net/web-security) Labs Writeups
 
 ## Cross-site scripting (XSS)
 
