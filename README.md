@@ -1,5 +1,7 @@
 # [PortSwigger](https://portswigger.net/web-security) Labs Writeups
 
+## Clickjacking
+
 ## Cross-site scripting (XSS)
 
 ### DOM-based vulnerabilities
