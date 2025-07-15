@@ -2,6 +2,8 @@
 
 ## Clickjacking
 
+- [Lab: Basic clickjacking with CSRF token protection](https://portswigger.net/web-security/clickjacking/lab-basic-csrf-protected)
+
 ## Cross-site scripting (XSS)
 
 ### DOM-based vulnerabilities
