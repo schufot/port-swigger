@@ -1,4 +1,4 @@
-# [PortSwigger](https://portswigger.net/web-security) Labs Writeups
+# [PortSwigger Labs](https://portswigger.net/web-security) Writeups
 
 ## Clickjacking
 
